@@ -1,0 +1,7732 @@
+
+-------------------------------------------------------------------simultion time::1------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 10 initialtime: 1
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 2 fuel: 9 initialtime: 1
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 4 fuel: 10 initialtime: 1
+
+
+------Takeoff queue of Runway2 is Empty
+
+--------Takeoff queue of Runway3 is Empty
+
+take off at runway 1:
+
+id : 4 fuel : 10 initialtime : 1 End time : 1 total time waited : 0 
+
+landing at runway 2:
+
+id : 2 fuel : 9 initialtime : 1 End time : 1 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 10 initialtime: 1
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::1
+
+ NUMBER OF PLANES TAKEN OFF::1
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::2------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 9 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 8 fuel: 8 initialtime: 2
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 6 fuel: 10 initialtime: 2
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 10 fuel: 10 initialtime: 2
+
+
+------Takeoff queue of Runway2 is Empty
+
+--------Takeoff queue of Runway3 is Empty
+
+take off at runway 1:
+
+id : 10 fuel : 10 initialtime : 2 End time : 2 total time waited : 0 
+
+landing at runway 2:
+
+id : 6 fuel : 10 initialtime : 2 End time : 2 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 9 initialtime: 1
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 8 fuel: 8 initialtime: 2
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::2
+
+ NUMBER OF PLANES TAKEN OFF::2
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::3------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 8 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 8 fuel: 7 initialtime: 2
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 12 fuel: 3 initialtime: 3
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 14 fuel: 10 initialtime: 3
+
+
+------Takeoff queue of Runway2 is Empty
+
+--------Takeoff queue of Runway3 is Empty
+
+take off at runway 1:
+
+id : 14 fuel : 10 initialtime : 3 End time : 3 total time waited : 0 
+
+landing at runway 2:
+
+id : 12 fuel : 3 initialtime : 3 End time : 3 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 8 initialtime: 1
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 8 fuel: 7 initialtime: 2
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::3
+
+ NUMBER OF PLANES TAKEN OFF::3
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::4------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 7 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 8 fuel: 6 initialtime: 2
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 18 fuel: 1 initialtime: 4
+
+Node 2 id: 16 fuel: 2 initialtime: 4
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 20 fuel: 10 initialtime: 4
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+
+--------Takeoff queue of Runway3 is Empty
+
+take off at runway 1:
+
+id : 20 fuel : 10 initialtime : 4 End time : 4 total time waited : 0 
+
+landing at runway 2:
+
+id : 18 fuel : 1 initialtime : 4 End time : 4 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 7 initialtime: 1
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 8 fuel: 6 initialtime: 2
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 16 fuel: 2 initialtime: 4
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::4
+
+ NUMBER OF PLANES TAKEN OFF::4
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::5------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 6 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 8 fuel: 5 initialtime: 2
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 26 fuel: 0 initialtime: 5
+
+Node 2 id: 24 fuel: 8 initialtime: 5
+
+Node 3 id: 16 fuel: 1 initialtime: 4
+
+
+-------Second landing queue of Runway2 is Empty
+
+-------Takeoff queue of Runway1 is Empty
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 8 fuel : 5 initialtime : 2 End time : 5 total time waited : 3 
+
+landing at runway 3:
+
+id : 26 fuel : 0 initialtime : 5 End time : 5 total time waited : 0 
+
+landing at runway 2:
+
+id : 16 fuel : 1 initialtime : 4 End time : 5 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 6 initialtime: 1
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 24 fuel: 8 initialtime: 5
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::7
+
+ NUMBER OF PLANES TAKEN OFF::4
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::6------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 5 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 28 fuel: 6 initialtime: 6
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 30 fuel: 1 initialtime: 6
+
+Node 2 id: 24 fuel: 7 initialtime: 5
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 32 fuel: 10 initialtime: 6
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+
+--------Takeoff queue of Runway3 is Empty
+
+take off at runway 1:
+
+id : 32 fuel : 10 initialtime : 6 End time : 6 total time waited : 0 
+
+landing at runway 2:
+
+id : 30 fuel : 1 initialtime : 6 End time : 6 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 5 initialtime: 1
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 28 fuel: 6 initialtime: 6
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 24 fuel: 7 initialtime: 5
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::8
+
+ NUMBER OF PLANES TAKEN OFF::5
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::7------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 4 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 28 fuel: 5 initialtime: 6
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 24 fuel: 6 initialtime: 5
+
+Node 2 id: 34 fuel: 7 initialtime: 7
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 22 fuel: 10 initialtime: 4
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 38 fuel: 10 initialtime: 7
+
+
+landing at runway1:
+
+id : 28 fuel : 5 initialtime : 6 End time : 7 total time waited : 1 
+
+takeoff at runway 2:
+
+id : 22 fuel : 10 initialtime : 4 End time : 7 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 38 fuel : 10 initialtime : 7 End time : 7 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 4 initialtime: 1
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 24 fuel: 6 initialtime: 5
+
+Node 2 id: 34 fuel: 7 initialtime: 7
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 0
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::9
+
+ NUMBER OF PLANES TAKEN OFF::7
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::8------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 3 initialtime: 1
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 42 fuel: 7 initialtime: 8
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 44 fuel: 1 initialtime: 8
+
+Node 2 id: 46 fuel: 2 initialtime: 8
+
+Node 3 id: 24 fuel: 5 initialtime: 5
+
+Node 4 id: 34 fuel: 6 initialtime: 7
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 50 fuel: 10 initialtime: 8
+
+
+landing at runway1:
+
+id : 42 fuel : 7 initialtime : 8 End time : 8 total time waited : 0 
+
+landing at runway 2:
+
+id : 44 fuel : 1 initialtime : 8 End time : 8 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 50 fuel : 10 initialtime : 8 End time : 8 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 0 fuel: 3 initialtime: 1
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 46 fuel: 2 initialtime: 8
+
+Node 2 id: 34 fuel: 6 initialtime: 7
+
+Node 3 id: 24 fuel: 5 initialtime: 5
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 1
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::11
+
+ NUMBER OF PLANES TAKEN OFF::8
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::9------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 0 fuel: 2 initialtime: 1
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 46 fuel: 1 initialtime: 8
+
+Node 2 id: 34 fuel: 5 initialtime: 7
+
+Node 3 id: 24 fuel: 4 initialtime: 5
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 0 fuel : 2 initialtime : 1 End time : 9 total time waited : 8 
+
+landing at runway 2:
+
+id : 46 fuel : 1 initialtime : 8 End time : 9 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 24 fuel: 4 initialtime: 5
+
+Node 2 id: 34 fuel: 5 initialtime: 7
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 1
+
+ Average takeoff time is:: 0
+
+ NUMBER OF PLANES LANDED ::13
+
+ NUMBER OF PLANES TAKEN OFF::8
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::10------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 24 fuel: 3 initialtime: 5
+
+Node 2 id: 34 fuel: 4 initialtime: 7
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 40 fuel: 10 initialtime: 7
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+
+--------Takeoff queue of Runway3 is Empty
+
+takeoff at runway 1:
+
+id : 40 fuel : 10 initialtime : 7 End time : 10 total time waited : 3 
+
+landing at runway 2:
+
+id : 24 fuel : 3 initialtime : 5 End time : 10 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 34 fuel: 4 initialtime: 7
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 1
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::14
+
+ NUMBER OF PLANES TAKEN OFF::9
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::11------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 34 fuel: 3 initialtime: 7
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 54 fuel: 10 initialtime: 11
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 52 fuel: 10 initialtime: 11
+
+
+takeoff at runway 1:
+
+id : 54 fuel : 10 initialtime : 11 End time : 11 total time waited : 0 
+
+landing at runway 2:
+
+id : 34 fuel : 3 initialtime : 7 End time : 11 total time waited : 4 
+
+Takeoff at runway 2:
+
+id : 52 fuel : 10 initialtime : 11 End time : 11 total time waited : 4 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::15
+
+ NUMBER OF PLANES TAKEN OFF::11
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::12------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 56 fuel: 5 initialtime: 12
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 60 fuel: 9 initialtime: 12
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 58 fuel: 8 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 64 fuel: 10 initialtime: 12
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 48 fuel: 10 initialtime: 8
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 62 fuel: 10 initialtime: 12
+
+
+take off at runway 1:
+
+id : 64 fuel : 10 initialtime : 12 End time : 12 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 48 fuel : 10 initialtime : 8 End time : 12 total time waited : 4 
+
+Takeoff at runway 2:
+
+id : 62 fuel : 10 initialtime : 12 End time : 12 total time waited : 4 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 56 fuel: 5 initialtime: 12
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 60 fuel: 9 initialtime: 12
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 58 fuel: 8 initialtime: 12
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::15
+
+ NUMBER OF PLANES TAKEN OFF::14
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::13------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 56 fuel: 4 initialtime: 12
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 60 fuel: 8 initialtime: 12
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 58 fuel: 7 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 66 fuel: 10 initialtime: 13
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 68 fuel: 10 initialtime: 13
+
+
+landing at runway1:
+
+id : 60 fuel : 8 initialtime : 12 End time : 13 total time waited : 1 
+
+takeoff at runway 2:
+
+id : 66 fuel : 10 initialtime : 13 End time : 13 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 68 fuel : 10 initialtime : 13 End time : 13 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 56 fuel: 4 initialtime: 12
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 58 fuel: 7 initialtime: 12
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::16
+
+ NUMBER OF PLANES TAKEN OFF::16
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::14------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 56 fuel: 3 initialtime: 12
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 58 fuel: 6 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 76 fuel: 10 initialtime: 14
+
+Node 2 id: 72 fuel: 10 initialtime: 14
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 74 fuel: 10 initialtime: 14
+
+
+landing at runway1:
+
+id : 56 fuel : 3 initialtime : 12 End time : 14 total time waited : 2 
+
+takeoff at runway 2:
+
+id : 76 fuel : 10 initialtime : 14 End time : 14 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 74 fuel : 10 initialtime : 14 End time : 14 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 58 fuel: 6 initialtime: 12
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::17
+
+ NUMBER OF PLANES TAKEN OFF::18
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::15------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 78 fuel: 2 initialtime: 15
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 80 fuel: 9 initialtime: 15
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 82 fuel: 4 initialtime: 15
+
+Node 2 id: 58 fuel: 5 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 84 fuel: 10 initialtime: 15
+
+
+landing at runway1:
+
+id : 80 fuel : 9 initialtime : 15 End time : 15 total time waited : 0 
+
+landing at runway 2:
+
+id : 82 fuel : 4 initialtime : 15 End time : 15 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 84 fuel : 10 initialtime : 15 End time : 15 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 78 fuel: 2 initialtime: 15
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 58 fuel: 5 initialtime: 12
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::19
+
+ NUMBER OF PLANES TAKEN OFF::19
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::16------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 78 fuel: 1 initialtime: 15
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 86 fuel: 1 initialtime: 16
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 88 fuel: 4 initialtime: 16
+
+Node 2 id: 58 fuel: 4 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 86 fuel : 1 initialtime : 16 End time : 16 total time waited : 0 
+
+landing at runway 2:
+
+id : 88 fuel : 4 initialtime : 16 End time : 16 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 78 fuel: 1 initialtime: 15
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 58 fuel: 4 initialtime: 12
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::21
+
+ NUMBER OF PLANES TAKEN OFF::19
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::17------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 78 fuel: 0 initialtime: 15
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 90 fuel: 3 initialtime: 17
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 58 fuel: 3 initialtime: 12
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 92 fuel: 10 initialtime: 17
+
+
+landing at runway 3:
+
+id : 78 fuel : 0 initialtime : 15 End time : 17 total time waited : 2 
+
+landing at runway1:
+
+id : 90 fuel : 3 initialtime : 17 End time : 17 total time waited : 0 
+
+landing at runway 2:
+
+id : 58 fuel : 3 initialtime : 12 End time : 17 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 92 fuel: 10 initialtime: 17
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::24
+
+ NUMBER OF PLANES TAKEN OFF::19
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::18------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 70 fuel: 10 initialtime: 13
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 72 fuel: 10 initialtime: 14
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 92 fuel: 10 initialtime: 17
+
+
+Takeoff at runway1:
+
+id : 70 fuel : 10 initialtime : 13 End time : 18 total time waited : 5 
+
+Takeoff at runway3:
+
+id : 72 fuel : 10 initialtime : 14 End time : 18 total time waited : 4 
+
+Takeoff at runway3:
+
+id : 92 fuel : 10 initialtime : 17 End time : 18 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::24
+
+ NUMBER OF PLANES TAKEN OFF::22
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::19------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 94 fuel: 2 initialtime: 19
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 96 fuel: 3 initialtime: 19
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 102 fuel: 10 initialtime: 19
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 100 fuel: 10 initialtime: 19
+
+
+landing at runway1:
+
+id : 94 fuel : 2 initialtime : 19 End time : 19 total time waited : 0 
+
+landing at runway 2:
+
+id : 96 fuel : 3 initialtime : 19 End time : 19 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 100 fuel : 10 initialtime : 19 End time : 19 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 102 fuel: 10 initialtime: 19
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::26
+
+ NUMBER OF PLANES TAKEN OFF::23
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::20------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 6 initialtime: 20
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 108 fuel: 10 initialtime: 20
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 106 fuel: 1 initialtime: 20
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 102 fuel: 10 initialtime: 19
+
+Node 2 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 110 fuel: 10 initialtime: 20
+
+
+take off at runway 1:
+
+id : 102 fuel : 10 initialtime : 19 End time : 20 total time waited : 1 
+
+landing at runway 2:
+
+id : 106 fuel : 1 initialtime : 20 End time : 20 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 110 fuel : 10 initialtime : 20 End time : 20 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 104 fuel: 6 initialtime: 20
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 108 fuel: 10 initialtime: 20
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::27
+
+ NUMBER OF PLANES TAKEN OFF::25
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::21------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 5 initialtime: 20
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 108 fuel: 9 initialtime: 20
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 114 fuel: 1 initialtime: 21
+
+Node 2 id: 112 fuel: 9 initialtime: 21
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 36 fuel: 10 initialtime: 7
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 116 fuel: 10 initialtime: 21
+
+
+take off at runway 1:
+
+id : 36 fuel : 10 initialtime : 7 End time : 21 total time waited : 14 
+
+landing at runway 2:
+
+id : 114 fuel : 1 initialtime : 21 End time : 21 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 116 fuel : 10 initialtime : 21 End time : 21 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 104 fuel: 5 initialtime: 20
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 108 fuel: 9 initialtime: 20
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 112 fuel: 9 initialtime: 21
+
+------Second Landing queue of Runway2 is Empty
+
+------Takeoff queue of Runway1 is Empty
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::28
+
+ NUMBER OF PLANES TAKEN OFF::27
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::22------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 4 initialtime: 20
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 108 fuel: 8 initialtime: 20
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 112 fuel: 8 initialtime: 21
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 98 fuel: 10 initialtime: 19
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 120 fuel: 10 initialtime: 22
+
+
+landing at runway1:
+
+id : 108 fuel : 8 initialtime : 20 End time : 22 total time waited : 2 
+
+takeoff at runway 2:
+
+id : 98 fuel : 10 initialtime : 19 End time : 22 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 120 fuel : 10 initialtime : 22 End time : 22 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 104 fuel: 4 initialtime: 20
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 112 fuel: 8 initialtime: 21
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::29
+
+ NUMBER OF PLANES TAKEN OFF::29
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::23------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 3 initialtime: 20
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 122 fuel: 1 initialtime: 23
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 124 fuel: 0 initialtime: 23
+
+Node 2 id: 112 fuel: 7 initialtime: 21
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+
+------Takeoff queue of Runway2 is Empty
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 122 fuel : 1 initialtime : 23 End time : 23 total time waited : 0 
+
+landing at runway 3:
+
+id : 124 fuel : 0 initialtime : 23 End time : 23 total time waited : 0 
+
+landing at runway 2:
+
+id : 112 fuel : 7 initialtime : 21 End time : 23 total time waited : 2 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 104 fuel: 3 initialtime: 20
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::32
+
+ NUMBER OF PLANES TAKEN OFF::29
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::24------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 2 initialtime: 20
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 128 fuel: 9 initialtime: 24
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 126 fuel: 6 initialtime: 24
+
+Node 2 id: 130 fuel: 9 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 132 fuel: 10 initialtime: 24
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 134 fuel: 10 initialtime: 24
+
+
+landing at runway1:
+
+id : 128 fuel : 9 initialtime : 24 End time : 24 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 132 fuel : 10 initialtime : 24 End time : 24 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 134 fuel : 10 initialtime : 24 End time : 24 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 104 fuel: 2 initialtime: 20
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 126 fuel: 6 initialtime: 24
+
+Node 2 id: 130 fuel: 9 initialtime: 24
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::33
+
+ NUMBER OF PLANES TAKEN OFF::31
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::25------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 104 fuel: 1 initialtime: 20
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 126 fuel: 5 initialtime: 24
+
+Node 2 id: 130 fuel: 8 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 142 fuel: 10 initialtime: 25
+
+Node 2 id: 138 fuel: 10 initialtime: 25
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 140 fuel: 10 initialtime: 25
+
+
+landing at runway1:
+
+id : 104 fuel : 1 initialtime : 20 End time : 25 total time waited : 5 
+
+takeoff at runway 2:
+
+id : 142 fuel : 10 initialtime : 25 End time : 25 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 140 fuel : 10 initialtime : 25 End time : 25 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 126 fuel: 5 initialtime: 24
+
+Node 2 id: 130 fuel: 8 initialtime: 24
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 138 fuel: 10 initialtime: 25
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::34
+
+ NUMBER OF PLANES TAKEN OFF::33
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::26------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 144 fuel: 1 initialtime: 26
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 126 fuel: 4 initialtime: 24
+
+Node 2 id: 130 fuel: 7 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 138 fuel: 10 initialtime: 25
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 146 fuel: 10 initialtime: 26
+
+
+landing at runway1:
+
+id : 144 fuel : 1 initialtime : 26 End time : 26 total time waited : 0 
+
+landing at runway 2:
+
+id : 126 fuel : 4 initialtime : 24 End time : 26 total time waited : 2 
+
+Takeoff at runway 2:
+
+id : 146 fuel : 10 initialtime : 26 End time : 26 total time waited : 2 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 130 fuel: 7 initialtime: 24
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 138 fuel: 10 initialtime: 25
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::36
+
+ NUMBER OF PLANES TAKEN OFF::34
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::27------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 130 fuel: 6 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 136 fuel: 10 initialtime: 24
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 150 fuel: 10 initialtime: 27
+
+Node 2 id: 138 fuel: 10 initialtime: 25
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 152 fuel: 10 initialtime: 27
+
+Node 2 id: 148 fuel: 10 initialtime: 27
+
+
+takeoff at runway 1:
+
+id : 136 fuel : 10 initialtime : 24 End time : 27 total time waited : 3 
+
+takeoff at runway 2:
+
+id : 150 fuel : 10 initialtime : 27 End time : 27 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 152 fuel : 10 initialtime : 27 End time : 27 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 130 fuel: 6 initialtime: 24
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 138 fuel: 10 initialtime: 25
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 148 fuel: 10 initialtime: 27
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::36
+
+ NUMBER OF PLANES TAKEN OFF::37
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::28------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 154 fuel: 2 initialtime: 28
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 156 fuel: 8 initialtime: 28
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 130 fuel: 5 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 138 fuel: 10 initialtime: 25
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 148 fuel: 10 initialtime: 27
+
+
+landing at runway1:
+
+id : 156 fuel : 8 initialtime : 28 End time : 28 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 138 fuel : 10 initialtime : 25 End time : 28 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 148 fuel : 10 initialtime : 27 End time : 28 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 154 fuel: 2 initialtime: 28
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 130 fuel: 5 initialtime: 24
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::37
+
+ NUMBER OF PLANES TAKEN OFF::39
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::29------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 154 fuel: 1 initialtime: 28
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 158 fuel: 8 initialtime: 29
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 162 fuel: 0 initialtime: 29
+
+Node 2 id: 160 fuel: 5 initialtime: 29
+
+Node 3 id: 130 fuel: 4 initialtime: 24
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 158 fuel : 8 initialtime : 29 End time : 29 total time waited : 0 
+
+landing at runway 3:
+
+id : 162 fuel : 0 initialtime : 29 End time : 29 total time waited : 0 
+
+landing at runway 2:
+
+id : 130 fuel : 4 initialtime : 24 End time : 29 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 154 fuel: 1 initialtime: 28
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 160 fuel: 5 initialtime: 29
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::40
+
+ NUMBER OF PLANES TAKEN OFF::39
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::30------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 154 fuel: 0 initialtime: 28
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 166 fuel: 3 initialtime: 30
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 170 fuel: 2 initialtime: 30
+
+Node 2 id: 168 fuel: 9 initialtime: 30
+
+Node 3 id: 160 fuel: 4 initialtime: 29
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 172 fuel: 10 initialtime: 30
+
+
+landing at runway 3:
+
+id : 154 fuel : 0 initialtime : 28 End time : 30 total time waited : 2 
+
+landing at runway1:
+
+id : 166 fuel : 3 initialtime : 30 End time : 30 total time waited : 0 
+
+landing at runway 2:
+
+id : 170 fuel : 2 initialtime : 30 End time : 30 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 160 fuel: 4 initialtime: 29
+
+Node 2 id: 168 fuel: 9 initialtime: 30
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 172 fuel: 10 initialtime: 30
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::43
+
+ NUMBER OF PLANES TAKEN OFF::39
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::31------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 174 fuel: 3 initialtime: 31
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 176 fuel: 10 initialtime: 31
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 160 fuel: 3 initialtime: 29
+
+Node 2 id: 168 fuel: 8 initialtime: 30
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 172 fuel: 10 initialtime: 30
+
+
+landing at runway1:
+
+id : 176 fuel : 10 initialtime : 31 End time : 31 total time waited : 0 
+
+landing at runway 2:
+
+id : 160 fuel : 3 initialtime : 29 End time : 31 total time waited : 2 
+
+Takeoff at runway 2:
+
+id : 172 fuel : 10 initialtime : 30 End time : 31 total time waited : 2 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 174 fuel: 3 initialtime: 31
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 168 fuel: 8 initialtime: 30
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::45
+
+ NUMBER OF PLANES TAKEN OFF::40
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::32------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 174 fuel: 2 initialtime: 31
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 180 fuel: 10 initialtime: 32
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 168 fuel: 7 initialtime: 30
+
+Node 2 id: 182 fuel: 8 initialtime: 32
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 186 fuel: 10 initialtime: 32
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 188 fuel: 10 initialtime: 32
+
+Node 2 id: 184 fuel: 10 initialtime: 32
+
+
+landing at runway1:
+
+id : 180 fuel : 10 initialtime : 32 End time : 32 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 186 fuel : 10 initialtime : 32 End time : 32 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 188 fuel : 10 initialtime : 32 End time : 32 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 174 fuel: 2 initialtime: 31
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 168 fuel: 7 initialtime: 30
+
+Node 2 id: 182 fuel: 8 initialtime: 32
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 184 fuel: 10 initialtime: 32
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::46
+
+ NUMBER OF PLANES TAKEN OFF::42
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::33------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 174 fuel: 1 initialtime: 31
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 168 fuel: 6 initialtime: 30
+
+Node 2 id: 182 fuel: 7 initialtime: 32
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 190 fuel: 10 initialtime: 33
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 184 fuel: 10 initialtime: 32
+
+
+landing at runway1:
+
+id : 174 fuel : 1 initialtime : 31 End time : 33 total time waited : 2 
+
+takeoff at runway 2:
+
+id : 190 fuel : 10 initialtime : 33 End time : 33 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 184 fuel : 10 initialtime : 32 End time : 33 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 168 fuel: 6 initialtime: 30
+
+Node 2 id: 182 fuel: 7 initialtime: 32
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::47
+
+ NUMBER OF PLANES TAKEN OFF::44
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::34------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 192 fuel: 2 initialtime: 34
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 168 fuel: 5 initialtime: 30
+
+Node 2 id: 182 fuel: 6 initialtime: 32
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 196 fuel: 10 initialtime: 34
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 194 fuel: 10 initialtime: 34
+
+
+landing at runway1:
+
+id : 192 fuel : 2 initialtime : 34 End time : 34 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 196 fuel : 10 initialtime : 34 End time : 34 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 194 fuel : 10 initialtime : 34 End time : 34 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 168 fuel: 5 initialtime: 30
+
+Node 2 id: 182 fuel: 6 initialtime: 32
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::48
+
+ NUMBER OF PLANES TAKEN OFF::46
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::35------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 198 fuel: 2 initialtime: 35
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 168 fuel: 4 initialtime: 30
+
+Node 2 id: 182 fuel: 5 initialtime: 32
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 200 fuel: 10 initialtime: 35
+
+
+landing at runway1:
+
+id : 198 fuel : 2 initialtime : 35 End time : 35 total time waited : 0 
+
+landing at runway 2:
+
+id : 168 fuel : 4 initialtime : 30 End time : 35 total time waited : 5 
+
+Takeoff at runway 2:
+
+id : 200 fuel : 10 initialtime : 35 End time : 35 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 182 fuel: 5 initialtime: 32
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::50
+
+ NUMBER OF PLANES TAKEN OFF::47
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::36------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 202 fuel: 6 initialtime: 36
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 204 fuel: 6 initialtime: 36
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 182 fuel: 4 initialtime: 32
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 178 fuel: 10 initialtime: 31
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 208 fuel: 10 initialtime: 36
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 210 fuel: 10 initialtime: 36
+
+Node 2 id: 206 fuel: 10 initialtime: 36
+
+
+take off at runway 1:
+
+id : 178 fuel : 10 initialtime : 31 End time : 36 total time waited : 5 
+
+landing at runway 2:
+
+id : 182 fuel : 4 initialtime : 32 End time : 36 total time waited : 4 
+
+Takeoff at runway 2:
+
+id : 210 fuel : 10 initialtime : 36 End time : 36 total time waited : 4 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 202 fuel: 6 initialtime: 36
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 204 fuel: 6 initialtime: 36
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 208 fuel: 10 initialtime: 36
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 206 fuel: 10 initialtime: 36
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::51
+
+ NUMBER OF PLANES TAKEN OFF::49
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::37------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 202 fuel: 5 initialtime: 36
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 204 fuel: 5 initialtime: 36
+
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 212 fuel: 10 initialtime: 37
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 208 fuel: 10 initialtime: 36
+
+Node 2 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 214 fuel: 10 initialtime: 37
+
+Node 2 id: 206 fuel: 10 initialtime: 36
+
+
+take off at runway 1:
+
+id : 212 fuel : 10 initialtime : 37 End time : 37 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 208 fuel : 10 initialtime : 36 End time : 37 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 214 fuel : 10 initialtime : 37 End time : 37 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 202 fuel: 5 initialtime: 36
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 204 fuel: 5 initialtime: 36
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 206 fuel: 10 initialtime: 36
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::51
+
+ NUMBER OF PLANES TAKEN OFF::52
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::38------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 202 fuel: 4 initialtime: 36
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 204 fuel: 4 initialtime: 36
+
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 164 fuel: 10 initialtime: 29
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 206 fuel: 10 initialtime: 36
+
+
+landing at runway1:
+
+id : 204 fuel : 4 initialtime : 36 End time : 38 total time waited : 2 
+
+takeoff at runway 2:
+
+id : 164 fuel : 10 initialtime : 29 End time : 38 total time waited : 9 
+
+Takeoff at runway 2:
+
+id : 206 fuel : 10 initialtime : 36 End time : 38 total time waited : 9 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 202 fuel: 4 initialtime: 36
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::52
+
+ NUMBER OF PLANES TAKEN OFF::54
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::39------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 202 fuel: 3 initialtime: 36
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 220 fuel: 9 initialtime: 39
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 222 fuel: 8 initialtime: 39
+
+Node 2 id: 218 fuel: 10 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 228 fuel: 10 initialtime: 39
+
+Node 2 id: 224 fuel: 10 initialtime: 39
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 226 fuel: 10 initialtime: 39
+
+
+landing at runway1:
+
+id : 220 fuel : 9 initialtime : 39 End time : 39 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 228 fuel : 10 initialtime : 39 End time : 39 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 226 fuel : 10 initialtime : 39 End time : 39 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 202 fuel: 3 initialtime: 36
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 222 fuel: 8 initialtime: 39
+
+Node 2 id: 218 fuel: 10 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 224 fuel: 10 initialtime: 39
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::53
+
+ NUMBER OF PLANES TAKEN OFF::56
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::40------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 202 fuel: 2 initialtime: 36
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 222 fuel: 7 initialtime: 39
+
+Node 2 id: 218 fuel: 9 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 224 fuel: 10 initialtime: 39
+
+
+--------Takeoff queue of Runway3 is Empty
+
+landing at runway1:
+
+id : 202 fuel : 2 initialtime : 36 End time : 40 total time waited : 4 
+
+takeoff at runway 2:
+
+id : 224 fuel : 10 initialtime : 39 End time : 40 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 222 fuel: 7 initialtime: 39
+
+Node 2 id: 218 fuel: 9 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::54
+
+ NUMBER OF PLANES TAKEN OFF::57
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::41------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 222 fuel: 6 initialtime: 39
+
+Node 2 id: 218 fuel: 8 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 216 fuel: 10 initialtime: 38
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 234 fuel: 10 initialtime: 41
+
+Node 2 id: 230 fuel: 10 initialtime: 41
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 232 fuel: 10 initialtime: 41
+
+
+takeoff at runway 1:
+
+id : 216 fuel : 10 initialtime : 38 End time : 41 total time waited : 3 
+
+takeoff at runway 2:
+
+id : 234 fuel : 10 initialtime : 41 End time : 41 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 232 fuel : 10 initialtime : 41 End time : 41 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 222 fuel: 6 initialtime: 39
+
+Node 2 id: 218 fuel: 8 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 230 fuel: 10 initialtime: 41
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::54
+
+ NUMBER OF PLANES TAKEN OFF::60
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::42------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 236 fuel: 1 initialtime: 42
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 238 fuel: 5 initialtime: 42
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 222 fuel: 5 initialtime: 39
+
+Node 2 id: 218 fuel: 7 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 242 fuel: 10 initialtime: 42
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 230 fuel: 10 initialtime: 41
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 240 fuel: 10 initialtime: 42
+
+
+landing at runway1:
+
+id : 238 fuel : 5 initialtime : 42 End time : 42 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 230 fuel : 10 initialtime : 41 End time : 42 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 240 fuel : 10 initialtime : 42 End time : 42 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 236 fuel: 1 initialtime: 42
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 222 fuel: 5 initialtime: 39
+
+Node 2 id: 218 fuel: 7 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 242 fuel: 10 initialtime: 42
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+------Takeoff queue of Runway2 is Empty
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::55
+
+ NUMBER OF PLANES TAKEN OFF::62
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::43------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 236 fuel: 0 initialtime: 42
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 244 fuel: 5 initialtime: 43
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 222 fuel: 4 initialtime: 39
+
+Node 2 id: 218 fuel: 6 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 242 fuel: 10 initialtime: 42
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 250 fuel: 10 initialtime: 43
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 248 fuel: 10 initialtime: 43
+
+
+landing at runway 3:
+
+id : 236 fuel : 0 initialtime : 42 End time : 43 total time waited : 1 
+
+landing at runway1:
+
+id : 244 fuel : 5 initialtime : 43 End time : 43 total time waited : 0 
+
+landing at runway 2:
+
+id : 222 fuel : 4 initialtime : 39 End time : 43 total time waited : 4 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 218 fuel: 6 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 242 fuel: 10 initialtime: 42
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 250 fuel: 10 initialtime: 43
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 248 fuel: 10 initialtime: 43
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::58
+
+ NUMBER OF PLANES TAKEN OFF::62
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::44------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 252 fuel: 5 initialtime: 44
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 254 fuel: 2 initialtime: 44
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 218 fuel: 5 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 242 fuel: 10 initialtime: 42
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 250 fuel: 10 initialtime: 43
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 248 fuel: 10 initialtime: 43
+
+
+take off at runway 1:
+
+id : 242 fuel : 10 initialtime : 42 End time : 44 total time waited : 2 
+
+takeoff at runway 2:
+
+id : 250 fuel : 10 initialtime : 43 End time : 44 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 248 fuel : 10 initialtime : 43 End time : 44 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 252 fuel: 5 initialtime: 44
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 254 fuel: 2 initialtime: 44
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 218 fuel: 5 initialtime: 39
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::58
+
+ NUMBER OF PLANES TAKEN OFF::65
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::45------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 252 fuel: 4 initialtime: 44
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 254 fuel: 1 initialtime: 44
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 256 fuel: 0 initialtime: 45
+
+Node 2 id: 218 fuel: 4 initialtime: 39
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 260 fuel: 10 initialtime: 45
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 258 fuel: 10 initialtime: 45
+
+
+landing at runway1:
+
+id : 254 fuel : 1 initialtime : 44 End time : 45 total time waited : 1 
+
+landing at runway 3:
+
+id : 256 fuel : 0 initialtime : 45 End time : 45 total time waited : 0 
+
+landing at runway 2:
+
+id : 218 fuel : 4 initialtime : 39 End time : 45 total time waited : 6 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 252 fuel: 4 initialtime: 44
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 260 fuel: 10 initialtime: 45
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 258 fuel: 10 initialtime: 45
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::61
+
+ NUMBER OF PLANES TAKEN OFF::65
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::46------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 252 fuel: 3 initialtime: 44
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 262 fuel: 2 initialtime: 46
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 260 fuel: 10 initialtime: 45
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 264 fuel: 10 initialtime: 46
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 258 fuel: 10 initialtime: 45
+
+
+landing at runway1:
+
+id : 252 fuel : 3 initialtime : 44 End time : 46 total time waited : 2 
+
+landing at runway 2:
+
+id : 262 fuel : 2 initialtime : 46 End time : 46 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 258 fuel : 10 initialtime : 45 End time : 46 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 260 fuel: 10 initialtime: 45
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 264 fuel: 10 initialtime: 46
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::63
+
+ NUMBER OF PLANES TAKEN OFF::66
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::47------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 260 fuel: 10 initialtime: 45
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 264 fuel: 10 initialtime: 46
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+--------Takeoff queue of Runway3 is Empty
+
+Takeoff at runway1:
+
+id : 260 fuel : 10 initialtime : 45 End time : 47 total time waited : 2 
+
+Takeoff at runway3:
+
+id : 264 fuel : 10 initialtime : 46 End time : 47 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::63
+
+ NUMBER OF PLANES TAKEN OFF::68
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::48------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 266 fuel: 2 initialtime: 48
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 270 fuel: 0 initialtime: 48
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 268 fuel: 5 initialtime: 48
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 274 fuel: 10 initialtime: 48
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 276 fuel: 10 initialtime: 48
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 272 fuel: 10 initialtime: 48
+
+
+landing at runway 3:
+
+id : 270 fuel : 0 initialtime : 48 End time : 48 total time waited : 0 
+
+landing at runway1:
+
+id : 266 fuel : 2 initialtime : 48 End time : 48 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 276 fuel : 10 initialtime : 48 End time : 48 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 268 fuel: 5 initialtime: 48
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 274 fuel: 10 initialtime: 48
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 272 fuel: 10 initialtime: 48
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::65
+
+ NUMBER OF PLANES TAKEN OFF::69
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::49------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 268 fuel: 4 initialtime: 48
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 274 fuel: 10 initialtime: 48
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 272 fuel: 10 initialtime: 48
+
+
+takeoff at runway 1:
+
+id : 274 fuel : 10 initialtime : 48 End time : 49 total time waited : 1 
+
+landing at runway 2:
+
+id : 268 fuel : 4 initialtime : 48 End time : 49 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 272 fuel : 10 initialtime : 48 End time : 49 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+-------Takeoff queue of Runway3 is Empty
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::66
+
+ NUMBER OF PLANES TAKEN OFF::71
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::50------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 278 fuel: 1 initialtime: 50
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 280 fuel: 0 initialtime: 50
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 286 fuel: 10 initialtime: 50
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+
+landing at runway 3:
+
+id : 272 fuel : 10 initialtime : 48 End time : 50 total time waited : 2 
+
+landing at runway1:
+
+id : 278 fuel : 1 initialtime : 50 End time : 50 total time waited : 0 
+
+landing at runway 2:
+
+id : 280 fuel : 0 initialtime : 50 End time : 50 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 286 fuel: 10 initialtime: 50
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::69
+
+ NUMBER OF PLANES TAKEN OFF::71
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::51------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 290 fuel: 10 initialtime: 51
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 286 fuel: 10 initialtime: 50
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 288 fuel: 10 initialtime: 51
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+Takeoff at runway1:
+
+id : 290 fuel : 10 initialtime : 51 End time : 51 total time waited : 0 
+
+Takeoff at runway3:
+
+id : 286 fuel : 10 initialtime : 50 End time : 51 total time waited : 1 
+
+Takeoff at runway3:
+
+id : 288 fuel : 10 initialtime : 51 End time : 51 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::69
+
+ NUMBER OF PLANES TAKEN OFF::74
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::52------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 292 fuel: 4 initialtime: 52
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 294 fuel: 7 initialtime: 52
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 296 fuel: 10 initialtime: 52
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 298 fuel: 10 initialtime: 52
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+landing at runway 3:
+
+id : 288 fuel : 10 initialtime : 51 End time : 52 total time waited : 1 
+
+landing at runway1:
+
+id : 292 fuel : 4 initialtime : 52 End time : 52 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 296 fuel : 10 initialtime : 52 End time : 52 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 294 fuel: 7 initialtime: 52
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 298 fuel: 10 initialtime: 52
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::71
+
+ NUMBER OF PLANES TAKEN OFF::75
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::53------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 5 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 302 fuel: 3 initialtime: 53
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 304 fuel: 6 initialtime: 53
+
+Node 2 id: 294 fuel: 6 initialtime: 52
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 308 fuel: 10 initialtime: 53
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 310 fuel: 10 initialtime: 53
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 298 fuel: 10 initialtime: 52
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+take off at runway 1:
+
+id : 308 fuel : 10 initialtime : 53 End time : 53 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 310 fuel : 10 initialtime : 53 End time : 53 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 298 fuel : 10 initialtime : 52 End time : 53 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 300 fuel: 5 initialtime: 53
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 302 fuel: 3 initialtime: 53
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 304 fuel: 6 initialtime: 53
+
+Node 2 id: 294 fuel: 6 initialtime: 52
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::71
+
+ NUMBER OF PLANES TAKEN OFF::78
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::54------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 4 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 302 fuel: 2 initialtime: 53
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 312 fuel: 0 initialtime: 54
+
+Node 2 id: 294 fuel: 5 initialtime: 52
+
+Node 3 id: 304 fuel: 5 initialtime: 53
+
+Node 4 id: 314 fuel: 7 initialtime: 54
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+landing at runway1:
+
+id : 302 fuel : 2 initialtime : 53 End time : 54 total time waited : 1 
+
+landing at runway 3:
+
+id : 312 fuel : 0 initialtime : 54 End time : 54 total time waited : 0 
+
+landing at runway 2:
+
+id : 294 fuel : 5 initialtime : 52 End time : 54 total time waited : 2 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 300 fuel: 4 initialtime: 53
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 304 fuel: 5 initialtime: 53
+
+Node 2 id: 314 fuel: 7 initialtime: 54
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::74
+
+ NUMBER OF PLANES TAKEN OFF::78
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::55------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 3 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 320 fuel: 9 initialtime: 55
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 304 fuel: 4 initialtime: 53
+
+Node 2 id: 314 fuel: 6 initialtime: 54
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 322 fuel: 10 initialtime: 55
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 324 fuel: 10 initialtime: 55
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+landing at runway1:
+
+id : 320 fuel : 9 initialtime : 55 End time : 55 total time waited : 0 
+
+landing at runway 2:
+
+id : 304 fuel : 4 initialtime : 53 End time : 55 total time waited : 2 
+
+Takeoff at runway 2:
+
+id : 324 fuel : 10 initialtime : 55 End time : 55 total time waited : 2 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 300 fuel: 3 initialtime: 53
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 314 fuel: 6 initialtime: 54
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 322 fuel: 10 initialtime: 55
+
+Node 2 id: 246 fuel: 10 initialtime: 43
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::76
+
+ NUMBER OF PLANES TAKEN OFF::79
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::56------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 2 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 328 fuel: 7 initialtime: 56
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 314 fuel: 5 initialtime: 54
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 332 fuel: 10 initialtime: 56
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 246 fuel: 10 initialtime: 43
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 330 fuel: 10 initialtime: 56
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+landing at runway1:
+
+id : 328 fuel : 7 initialtime : 56 End time : 56 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 332 fuel : 10 initialtime : 56 End time : 56 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 330 fuel : 10 initialtime : 56 End time : 56 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 300 fuel: 2 initialtime: 53
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 314 fuel: 5 initialtime: 54
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::77
+
+ NUMBER OF PLANES TAKEN OFF::81
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::57------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 1 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 334 fuel: 1 initialtime: 57
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 314 fuel: 4 initialtime: 54
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 336 fuel: 10 initialtime: 57
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+landing at runway1:
+
+id : 334 fuel : 1 initialtime : 57 End time : 57 total time waited : 0 
+
+landing at runway 2:
+
+id : 314 fuel : 4 initialtime : 54 End time : 57 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 336 fuel : 10 initialtime : 57 End time : 57 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 300 fuel: 1 initialtime: 53
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::79
+
+ NUMBER OF PLANES TAKEN OFF::82
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::58------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 300 fuel: 0 initialtime: 53
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 340 fuel: 6 initialtime: 58
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 338 fuel: 5 initialtime: 58
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 246 fuel: 10 initialtime: 43
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+landing at runway 3:
+
+id : 300 fuel : 0 initialtime : 53 End time : 58 total time waited : 5 
+
+landing at runway1:
+
+id : 340 fuel : 6 initialtime : 58 End time : 58 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 246 fuel : 10 initialtime : 43 End time : 58 total time waited : 15 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 338 fuel: 5 initialtime: 58
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 322 fuel: 10 initialtime: 55
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::81
+
+ NUMBER OF PLANES TAKEN OFF::83
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::59------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 338 fuel: 4 initialtime: 58
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 326 fuel: 10 initialtime: 55
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 346 fuel: 10 initialtime: 59
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 322 fuel: 10 initialtime: 55
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 348 fuel: 10 initialtime: 59
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+Node 4 id: 282 fuel: 10 initialtime: 50
+
+
+takeoff at runway 1:
+
+id : 326 fuel : 10 initialtime : 55 End time : 59 total time waited : 4 
+
+landing at runway 2:
+
+id : 338 fuel : 4 initialtime : 58 End time : 59 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 348 fuel : 10 initialtime : 59 End time : 59 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 346 fuel: 10 initialtime: 59
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 322 fuel: 10 initialtime: 55
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::82
+
+ NUMBER OF PLANES TAKEN OFF::85
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::60------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+--------First landing queue of Runway1 is Empty
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 350 fuel: 10 initialtime: 60
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 346 fuel: 10 initialtime: 59
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 322 fuel: 10 initialtime: 55
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 352 fuel: 10 initialtime: 60
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+Node 4 id: 342 fuel: 10 initialtime: 58
+
+
+Takeoff at runway1:
+
+id : 350 fuel : 10 initialtime : 60 End time : 60 total time waited : 0 
+
+Takeoff at runway3:
+
+id : 346 fuel : 10 initialtime : 59 End time : 60 total time waited : 1 
+
+Takeoff at runway3:
+
+id : 352 fuel : 10 initialtime : 60 End time : 60 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 322 fuel: 10 initialtime: 55
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::82
+
+ NUMBER OF PLANES TAKEN OFF::88
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::61------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 354 fuel: 0 initialtime: 61
+
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 356 fuel: 10 initialtime: 61
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 322 fuel: 10 initialtime: 55
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+landing at runway 3:
+
+id : 354 fuel : 0 initialtime : 61 End time : 61 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 322 fuel : 10 initialtime : 55 End time : 61 total time waited : 6 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 356 fuel: 10 initialtime: 61
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 282 fuel: 10 initialtime: 50
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::83
+
+ NUMBER OF PLANES TAKEN OFF::89
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::62------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 10 initialtime: 62
+
+
+-------Second landing queue of Runway1 is Empty
+
+----------First landing queue of Runway2 is Empty
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 356 fuel: 10 initialtime: 61
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 362 fuel: 10 initialtime: 62
+
+Node 2 id: 360 fuel: 10 initialtime: 62
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 364 fuel: 10 initialtime: 62
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+Node 4 id: 282 fuel: 10 initialtime: 50
+
+
+take off at runway 1:
+
+id : 356 fuel : 10 initialtime : 61 End time : 62 total time waited : 1 
+
+takeoff at runway 2:
+
+id : 362 fuel : 10 initialtime : 62 End time : 62 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 364 fuel : 10 initialtime : 62 End time : 62 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 10 initialtime: 62
+
+-------Second Landing queue of Runway1 is Empty
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 344 fuel: 10 initialtime: 59
+
+Node 2 id: 360 fuel: 10 initialtime: 62
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::83
+
+ NUMBER OF PLANES TAKEN OFF::92
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::63------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 9 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: 4 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 366 fuel: 1 initialtime: 63
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 370 fuel: 10 initialtime: 63
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 344 fuel: 10 initialtime: 59
+
+Node 2 id: 360 fuel: 10 initialtime: 62
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 282 fuel: 10 initialtime: 50
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+take off at runway 1:
+
+id : 370 fuel : 10 initialtime : 63 End time : 63 total time waited : 0 
+
+landing at runway 2:
+
+id : 366 fuel : 1 initialtime : 63 End time : 63 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 282 fuel : 10 initialtime : 50 End time : 63 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 9 initialtime: 62
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 368 fuel: 4 initialtime: 63
+
+-----First Landing queue of Runway2 is Empty
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 118 fuel: 10 initialtime: 22
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 344 fuel: 10 initialtime: 59
+
+Node 2 id: 360 fuel: 10 initialtime: 62
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::84
+
+ NUMBER OF PLANES TAKEN OFF::94
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::64------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 8 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: 3 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 376 fuel: 6 initialtime: 64
+
+Node 2 id: 374 fuel: 9 initialtime: 64
+
+Node 3 id: 372 fuel: 7 initialtime: 64
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 380 fuel: 10 initialtime: 64
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 118 fuel: 10 initialtime: 22
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 382 fuel: 10 initialtime: 64
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 360 fuel: 10 initialtime: 62
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 378 fuel: 10 initialtime: 64
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 316 fuel: 10 initialtime: 54
+
+
+take off at runway 1:
+
+id : 380 fuel : 10 initialtime : 64 End time : 64 total time waited : 0 
+
+takeoff at runway 2:
+
+id : 382 fuel : 10 initialtime : 64 End time : 64 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 378 fuel : 10 initialtime : 64 End time : 64 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 8 initialtime: 62
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 368 fuel: 3 initialtime: 63
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 376 fuel: 6 initialtime: 64
+
+Node 2 id: 374 fuel: 9 initialtime: 64
+
+Node 3 id: 372 fuel: 7 initialtime: 64
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 360 fuel: 10 initialtime: 62
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::84
+
+ NUMBER OF PLANES TAKEN OFF::97
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::65------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 0
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 7 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: 2 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 376 fuel: 5 initialtime: 64
+
+Node 2 id: 374 fuel: 8 initialtime: 64
+
+Node 3 id: 372 fuel: 6 initialtime: 64
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 118 fuel: 10 initialtime: 22
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 360 fuel: 10 initialtime: 62
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 316 fuel: 10 initialtime: 54
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+take off at runway 1:
+
+id : 118 fuel : 10 initialtime : 22 End time : 65 total time waited : 43 
+
+takeoff at runway 2:
+
+id : 360 fuel : 10 initialtime : 62 End time : 65 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 316 fuel : 10 initialtime : 54 End time : 65 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 7 initialtime: 62
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 368 fuel: 2 initialtime: 63
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 376 fuel: 5 initialtime: 64
+
+Node 2 id: 374 fuel: 8 initialtime: 64
+
+Node 3 id: 372 fuel: 6 initialtime: 64
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 2
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::84
+
+ NUMBER OF PLANES TAKEN OFF::100
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::66------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 6 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: 1 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 384 fuel: 2 initialtime: 66
+
+Node 2 id: 376 fuel: 4 initialtime: 64
+
+Node 3 id: 372 fuel: 5 initialtime: 64
+
+Node 4 id: 374 fuel: 7 initialtime: 64
+
+Node 5 id: 386 fuel: 6 initialtime: 66
+
+Node 6 id: 388 fuel: 6 initialtime: 66
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 392 fuel: 10 initialtime: 66
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 390 fuel: 10 initialtime: 66
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+take off at runway 1:
+
+id : 392 fuel : 10 initialtime : 66 End time : 66 total time waited : 0 
+
+landing at runway 2:
+
+id : 384 fuel : 2 initialtime : 66 End time : 66 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 390 fuel : 10 initialtime : 66 End time : 66 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 6 initialtime: 62
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 368 fuel: 1 initialtime: 63
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 376 fuel: 4 initialtime: 64
+
+Node 2 id: 388 fuel: 6 initialtime: 66
+
+Node 3 id: 372 fuel: 5 initialtime: 64
+
+Node 4 id: 374 fuel: 7 initialtime: 64
+
+Node 5 id: 386 fuel: 6 initialtime: 66
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::85
+
+ NUMBER OF PLANES TAKEN OFF::102
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::67------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 5 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: 0 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 376 fuel: 3 initialtime: 64
+
+Node 2 id: 388 fuel: 5 initialtime: 66
+
+Node 3 id: 394 fuel: 4 initialtime: 67
+
+Node 4 id: 374 fuel: 6 initialtime: 64
+
+Node 5 id: 386 fuel: 5 initialtime: 66
+
+Node 6 id: 372 fuel: 4 initialtime: 64
+
+Node 7 id: 396 fuel: 5 initialtime: 67
+
+Node 8 id: 398 fuel: 10 initialtime: 67
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 402 fuel: 10 initialtime: 67
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 400 fuel: 10 initialtime: 67
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+take off at runway 1:
+
+id : 402 fuel : 10 initialtime : 67 End time : 67 total time waited : 0 
+
+landing at runway 2:
+
+id : 376 fuel : 3 initialtime : 64 End time : 67 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 400 fuel : 10 initialtime : 67 End time : 67 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 5 initialtime: 62
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 368 fuel: 0 initialtime: 63
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 394 fuel: 4 initialtime: 67
+
+Node 2 id: 388 fuel: 5 initialtime: 66
+
+Node 3 id: 372 fuel: 4 initialtime: 64
+
+Node 4 id: 374 fuel: 6 initialtime: 64
+
+Node 5 id: 386 fuel: 5 initialtime: 66
+
+Node 6 id: 398 fuel: 10 initialtime: 67
+
+Node 7 id: 396 fuel: 5 initialtime: 67
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 284 fuel: 10 initialtime: 50
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::86
+
+ NUMBER OF PLANES TAKEN OFF::104
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::68------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 4 initialtime: 62
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 368 fuel: -1 initialtime: 63
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 394 fuel: 3 initialtime: 67
+
+Node 2 id: 388 fuel: 4 initialtime: 66
+
+Node 3 id: 372 fuel: 3 initialtime: 64
+
+Node 4 id: 374 fuel: 5 initialtime: 64
+
+Node 5 id: 386 fuel: 4 initialtime: 66
+
+Node 6 id: 398 fuel: 9 initialtime: 67
+
+Node 7 id: 396 fuel: 4 initialtime: 67
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 404 fuel: 10 initialtime: 68
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+landing at runway1:
+
+id : 368 fuel : -1 initialtime : 63 End time : 68 total time waited : 5 
+
+landing at runway 2:
+
+id : 394 fuel : 3 initialtime : 67 End time : 68 total time waited : 1 
+
+Takeoff at runway 2:
+
+id : 404 fuel : 10 initialtime : 68 End time : 68 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 358 fuel: 4 initialtime: 62
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 372 fuel: 3 initialtime: 64
+
+Node 2 id: 388 fuel: 4 initialtime: 66
+
+Node 3 id: 396 fuel: 4 initialtime: 67
+
+Node 4 id: 374 fuel: 5 initialtime: 64
+
+Node 5 id: 386 fuel: 4 initialtime: 66
+
+Node 6 id: 398 fuel: 9 initialtime: 67
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 306 fuel: 10 initialtime: 53
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::88
+
+ NUMBER OF PLANES TAKEN OFF::105
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::69------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 358 fuel: 3 initialtime: 62
+
+
+-------Second landing queue of Runway1 is Empty
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 372 fuel: 2 initialtime: 64
+
+Node 2 id: 388 fuel: 3 initialtime: 66
+
+Node 3 id: 396 fuel: 3 initialtime: 67
+
+Node 4 id: 374 fuel: 4 initialtime: 64
+
+Node 5 id: 386 fuel: 3 initialtime: 66
+
+Node 6 id: 398 fuel: 8 initialtime: 67
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 410 fuel: 10 initialtime: 69
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 412 fuel: 10 initialtime: 69
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+landing at runway1:
+
+id : 358 fuel : 3 initialtime : 62 End time : 69 total time waited : 7 
+
+landing at runway 2:
+
+id : 372 fuel : 2 initialtime : 64 End time : 69 total time waited : 5 
+
+Takeoff at runway 2:
+
+id : 412 fuel : 10 initialtime : 69 End time : 69 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+-------First Landing queue of Runway1 is Empty
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 388 fuel: 3 initialtime: 66
+
+Node 2 id: 386 fuel: 3 initialtime: 66
+
+Node 3 id: 396 fuel: 3 initialtime: 67
+
+Node 4 id: 374 fuel: 4 initialtime: 64
+
+Node 5 id: 398 fuel: 8 initialtime: 67
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 410 fuel: 10 initialtime: 69
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 408 fuel: 10 initialtime: 69
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::90
+
+ NUMBER OF PLANES TAKEN OFF::106
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::70------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 10 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 9 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 388 fuel: 2 initialtime: 66
+
+Node 2 id: 386 fuel: 2 initialtime: 66
+
+Node 3 id: 396 fuel: 2 initialtime: 67
+
+Node 4 id: 374 fuel: 3 initialtime: 64
+
+Node 5 id: 398 fuel: 7 initialtime: 67
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 420 fuel: 10 initialtime: 70
+
+Node 2 id: 406 fuel: 10 initialtime: 68
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 410 fuel: 10 initialtime: 69
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 418 fuel: 10 initialtime: 70
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+take off at runway 1:
+
+id : 420 fuel : 10 initialtime : 70 End time : 70 total time waited : 0 
+
+landing at runway 2:
+
+id : 388 fuel : 2 initialtime : 66 End time : 70 total time waited : 4 
+
+Takeoff at runway 2:
+
+id : 418 fuel : 10 initialtime : 70 End time : 70 total time waited : 4 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 10 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 9 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 386 fuel: 2 initialtime: 66
+
+Node 2 id: 374 fuel: 3 initialtime: 64
+
+Node 3 id: 396 fuel: 2 initialtime: 67
+
+Node 4 id: 398 fuel: 7 initialtime: 67
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 406 fuel: 10 initialtime: 68
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 410 fuel: 10 initialtime: 69
+
+Node 2 id: 344 fuel: 10 initialtime: 59
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 408 fuel: 10 initialtime: 69
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::91
+
+ NUMBER OF PLANES TAKEN OFF::108
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::71------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 9 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 8 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 422 fuel: 1 initialtime: 71
+
+Node 2 id: 386 fuel: 1 initialtime: 66
+
+Node 3 id: 396 fuel: 1 initialtime: 67
+
+Node 4 id: 398 fuel: 6 initialtime: 67
+
+Node 5 id: 374 fuel: 2 initialtime: 64
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 426 fuel: 10 initialtime: 71
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 406 fuel: 10 initialtime: 68
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 424 fuel: 10 initialtime: 71
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+take off at runway 1:
+
+id : 426 fuel : 10 initialtime : 71 End time : 71 total time waited : 0 
+
+landing at runway 2:
+
+id : 422 fuel : 1 initialtime : 71 End time : 71 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 424 fuel : 10 initialtime : 71 End time : 71 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 9 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 8 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 386 fuel: 1 initialtime: 66
+
+Node 2 id: 374 fuel: 2 initialtime: 64
+
+Node 3 id: 396 fuel: 1 initialtime: 67
+
+Node 4 id: 398 fuel: 6 initialtime: 67
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 408 fuel: 10 initialtime: 69
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::92
+
+ NUMBER OF PLANES TAKEN OFF::110
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::72------------------------------------------------------------------------------------------
+
+number of planes landing:: 3
+
+number of planes taking off:: 2
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 8 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 7 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 386 fuel: 0 initialtime: 66
+
+Node 2 id: 374 fuel: 1 initialtime: 64
+
+Node 3 id: 396 fuel: 0 initialtime: 67
+
+Node 4 id: 398 fuel: 5 initialtime: 67
+
+Node 5 id: 430 fuel: 4 initialtime: 72
+
+Node 6 id: 432 fuel: 5 initialtime: 72
+
+Node 7 id: 434 fuel: 6 initialtime: 72
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 438 fuel: 10 initialtime: 72
+
+Node 2 id: 406 fuel: 10 initialtime: 68
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 436 fuel: 10 initialtime: 72
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+take off at runway 1:
+
+id : 438 fuel : 10 initialtime : 72 End time : 72 total time waited : 0 
+
+landing at runway 3:
+
+id : 386 fuel : 0 initialtime : 66 End time : 72 total time waited : 6 
+
+landing at runway 2:
+
+id : 396 fuel : 0 initialtime : 67 End time : 72 total time waited : 5 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 8 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 7 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 374 fuel: 1 initialtime: 64
+
+Node 2 id: 430 fuel: 4 initialtime: 72
+
+Node 3 id: 432 fuel: 5 initialtime: 72
+
+Node 4 id: 398 fuel: 5 initialtime: 67
+
+Node 5 id: 434 fuel: 6 initialtime: 72
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 406 fuel: 10 initialtime: 68
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 436 fuel: 10 initialtime: 72
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::94
+
+ NUMBER OF PLANES TAKEN OFF::111
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::73------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 7 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 6 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 374 fuel: 0 initialtime: 64
+
+Node 2 id: 430 fuel: 3 initialtime: 72
+
+Node 3 id: 432 fuel: 4 initialtime: 72
+
+Node 4 id: 398 fuel: 4 initialtime: 67
+
+Node 5 id: 434 fuel: 5 initialtime: 72
+
+Node 6 id: 440 fuel: 10 initialtime: 73
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 442 fuel: 10 initialtime: 73
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 406 fuel: 10 initialtime: 68
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 436 fuel: 10 initialtime: 72
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+take off at runway 1:
+
+id : 442 fuel : 10 initialtime : 73 End time : 73 total time waited : 0 
+
+landing at runway 3:
+
+id : 374 fuel : 0 initialtime : 64 End time : 73 total time waited : 9 
+
+landing at runway 2:
+
+id : 430 fuel : 3 initialtime : 72 End time : 73 total time waited : 1 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 7 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 6 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 398 fuel: 4 initialtime: 67
+
+Node 2 id: 434 fuel: 5 initialtime: 72
+
+Node 3 id: 432 fuel: 4 initialtime: 72
+
+Node 4 id: 440 fuel: 10 initialtime: 73
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 318 fuel: 10 initialtime: 54
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 436 fuel: 10 initialtime: 72
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::96
+
+ NUMBER OF PLANES TAKEN OFF::112
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::74------------------------------------------------------------------------------------------
+
+number of planes landing:: 2
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 6 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 5 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 446 fuel: 1 initialtime: 74
+
+Node 2 id: 434 fuel: 4 initialtime: 72
+
+Node 3 id: 398 fuel: 3 initialtime: 67
+
+Node 4 id: 440 fuel: 9 initialtime: 73
+
+Node 5 id: 444 fuel: 9 initialtime: 74
+
+Node 6 id: 432 fuel: 3 initialtime: 72
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 452 fuel: 10 initialtime: 74
+
+Node 2 id: 448 fuel: 10 initialtime: 74
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+Node 5 id: 406 fuel: 10 initialtime: 68
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 450 fuel: 10 initialtime: 74
+
+Node 2 id: 436 fuel: 10 initialtime: 72
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+Node 4 id: 342 fuel: 10 initialtime: 58
+
+
+take off at runway 1:
+
+id : 452 fuel : 10 initialtime : 74 End time : 74 total time waited : 0 
+
+landing at runway 2:
+
+id : 446 fuel : 1 initialtime : 74 End time : 74 total time waited : 0 
+
+Takeoff at runway 2:
+
+id : 450 fuel : 10 initialtime : 74 End time : 74 total time waited : 0 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 6 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 5 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 432 fuel: 3 initialtime: 72
+
+Node 2 id: 434 fuel: 4 initialtime: 72
+
+Node 3 id: 398 fuel: 3 initialtime: 67
+
+Node 4 id: 440 fuel: 9 initialtime: 73
+
+Node 5 id: 444 fuel: 9 initialtime: 74
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 448 fuel: 10 initialtime: 74
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 436 fuel: 10 initialtime: 72
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::97
+
+ NUMBER OF PLANES TAKEN OFF::114
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::75------------------------------------------------------------------------------------------
+
+number of planes landing:: 1
+
+number of planes taking off:: 1
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 5 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 4 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 432 fuel: 2 initialtime: 72
+
+Node 2 id: 434 fuel: 3 initialtime: 72
+
+Node 3 id: 398 fuel: 2 initialtime: 67
+
+Node 4 id: 440 fuel: 8 initialtime: 73
+
+Node 5 id: 444 fuel: 8 initialtime: 74
+
+Node 6 id: 454 fuel: 4 initialtime: 75
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 406 fuel: 10 initialtime: 68
+
+Node 2 id: 448 fuel: 10 initialtime: 74
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 456 fuel: 10 initialtime: 75
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+Node 4 id: 436 fuel: 10 initialtime: 72
+
+
+take off at runway 1:
+
+id : 406 fuel : 10 initialtime : 68 End time : 75 total time waited : 7 
+
+landing at runway 2:
+
+id : 432 fuel : 2 initialtime : 72 End time : 75 total time waited : 3 
+
+Takeoff at runway 2:
+
+id : 456 fuel : 10 initialtime : 75 End time : 75 total time waited : 3 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 5 initialtime: 70
+
+------------------runway 1 landing heap2------------------
+
+Node 1 id: 416 fuel: 4 initialtime: 70
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 398 fuel: 2 initialtime: 67
+
+Node 2 id: 434 fuel: 3 initialtime: 72
+
+Node 3 id: 454 fuel: 4 initialtime: 75
+
+Node 4 id: 440 fuel: 8 initialtime: 73
+
+Node 5 id: 444 fuel: 8 initialtime: 74
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 318 fuel: 10 initialtime: 54
+
+Node 2 id: 448 fuel: 10 initialtime: 74
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 436 fuel: 10 initialtime: 72
+
+Node 2 id: 342 fuel: 10 initialtime: 58
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::98
+
+ NUMBER OF PLANES TAKEN OFF::116
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
+-------------------------------------------------------------------simultion time::76------------------------------------------------------------------------------------------
+
+number of planes landing:: 0
+
+number of planes taking off:: 3
+
+queues Before landing or takeoff:
+
+---------------------runway 1 landing heap----------------------
+
+Node 1 id: 414 fuel: 4 initialtime: 70
+
+
+---------------------runway 1 landing heap2----------------------
+
+Node 1 id: 416 fuel: 3 initialtime: 70
+
+
+--------------------runway 2 landing heap-------------------------
+
+Node 1 id: 398 fuel: 1 initialtime: 67
+
+Node 2 id: 434 fuel: 2 initialtime: 72
+
+Node 3 id: 454 fuel: 3 initialtime: 75
+
+Node 4 id: 440 fuel: 7 initialtime: 73
+
+Node 5 id: 444 fuel: 7 initialtime: 74
+
+
+-------Second landing queue of Runway2 is Empty
+
+--------------------runway 1 takeoff heap-------------------------
+
+Node 1 id: 462 fuel: 10 initialtime: 76
+
+Node 2 id: 458 fuel: 10 initialtime: 76
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 448 fuel: 10 initialtime: 74
+
+Node 5 id: 318 fuel: 10 initialtime: 54
+
+
+---------------------runway 2 takeoff heap-------------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+
+----------------------runway 3 takeoff heap-------------------------
+
+Node 1 id: 460 fuel: 10 initialtime: 76
+
+Node 2 id: 436 fuel: 10 initialtime: 72
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+Node 4 id: 342 fuel: 10 initialtime: 58
+
+
+landing at runway1:
+
+id : 416 fuel : 3 initialtime : 70 End time : 76 total time waited : 6 
+
+landing at runway 2:
+
+id : 398 fuel : 1 initialtime : 67 End time : 76 total time waited : 9 
+
+Takeoff at runway 2:
+
+id : 460 fuel : 10 initialtime : 76 End time : 76 total time waited : 9 
+
+
+Queues After landing or takeoff:
+
+------------------runway 1 landing heap------------------
+
+Node 1 id: 414 fuel: 4 initialtime: 70
+
+-------Second Landing queue of Runway1 is Empty
+
+-------------------runway 2 landing heap----------------
+
+Node 1 id: 434 fuel: 2 initialtime: 72
+
+Node 2 id: 444 fuel: 7 initialtime: 74
+
+Node 3 id: 454 fuel: 3 initialtime: 75
+
+Node 4 id: 440 fuel: 7 initialtime: 73
+
+------Second Landing queue of Runway2 is Empty
+
+-----------------runway 1 takeoff heap-----------------
+
+Node 1 id: 462 fuel: 10 initialtime: 76
+
+Node 2 id: 458 fuel: 10 initialtime: 76
+
+Node 3 id: 284 fuel: 10 initialtime: 50
+
+Node 4 id: 448 fuel: 10 initialtime: 74
+
+Node 5 id: 318 fuel: 10 initialtime: 54
+
+---------------runway 2 takeoff heap------------------
+
+Node 1 id: 428 fuel: 10 initialtime: 71
+
+Node 2 id: 410 fuel: 10 initialtime: 69
+
+Node 3 id: 306 fuel: 10 initialtime: 53
+
+Node 4 id: 344 fuel: 10 initialtime: 59
+
+----------------runway 3 takeoff heap----------------
+Node 1 id: 342 fuel: 10 initialtime: 58
+
+Node 2 id: 436 fuel: 10 initialtime: 72
+
+Node 3 id: 408 fuel: 10 initialtime: 69
+
+
+ Average landing time is:: 3
+
+ Average takeoff time is:: 1
+
+ NUMBER OF PLANES LANDED ::100
+
+ NUMBER OF PLANES TAKEN OFF::117
+
+__________________________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________________________________________________
+
